@@ -34,16 +34,21 @@ function playGame(playerChoice) {
     messages.textContent = result;
 
     messages.classList.remove("green", "red");
+
+    switch(result) {
+        case "YOU WIN!":
+            messages.classList.add("green");
+            playerScore++;
+            displayPlayerScore.textContent = playerScore;
+            break;
+            case "YOU LOSE!":
+                messages.classList.add("red");
+                computerScore++;
+                displayComputerScore.textContent = computerScore;
+                break;
+}
 }
 
-switch(result) {
-    case "YOU WIN!":
-        messages.classList.add("green");
-        break;
-        case "YOU LOSE!":
-            messages.classList.add("red");
-            break;
-}
 
 
 
