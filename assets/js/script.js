@@ -3,8 +3,8 @@ const choices = ["rock", "paper", "scissors"];
 const player = document.getElementById("player");
 const computer = document.getElementById("computer");
 const messages = document.getElementById("messages");
-const DisplayPlayerScore = document.getElementById("DisplayPlayerScore");
-const DisplayComputerScore = document.getElementById("DisplayComputerScore");
+const displayPlayerScore = document.getElementById("displayPlayerScore");
+const displayComputerScore = document.getElementById("displayComputerScore");
 
 let playerScore = 0;
 let computerScore = 0;
@@ -44,4 +44,6 @@ switch(result) {
             messages.classList.add("red");
             break;
 }
+
+
 

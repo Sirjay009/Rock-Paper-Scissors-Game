@@ -54,36 +54,27 @@ h1, h3 {
     transition: transform 150ms;
 }
 
-#player {
+#player, #computer {
     font-size: 1.4rem;
     font-weight: bold;
-}
-
-#computer {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin: 25px 0;
 }
 
 #messages {
-    font-size: 1.9rem;
-    font-weight: bold;
-    margin-bottom: 0;
+    font-size: 3rem;
+    margin: 30px 0;
 }
 
-.green {
+.green, #displayPlayerScore {
     color: green;
 }
 
-.red {
+.red, #displayComputerScore {
     color: red;
 }
 
-.scoreArea {
-    width: 100%;
-    margin-top: 0;
+.displayScore {
+    font-size: 2rem;
 }
-
 /*Footer*/
 
 footer {
