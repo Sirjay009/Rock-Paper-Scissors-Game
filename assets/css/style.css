@@ -36,14 +36,15 @@ h1, h3 {
 }
 
 .choices p {
-    font-size: 1.9rem;
+    font-size: 1.4rem;
+    margin-top: 30px;
 }
 
 .control {
-    font-size: 8rem;
+    font-size: 7.5rem;
     min-width: 160px;
     margin: 0 10px;
-    border-radius: 250px;
+    border-radius: 2500px;
     background-color: blueviolet;
 }
 
@@ -54,23 +55,32 @@ h1, h3 {
 }
 
 #player {
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
 #computer {
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin: 25px 0;
 }
 
 #messages {
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .scoreArea {
     width: 100%;
+    margin-top: 0;
+}
+
+.scores {
+    margin: 0.5em auto;
+    display: inline-block;
+    padding: 20px;
+    color: black;
 }
 
 footer {
@@ -79,10 +89,17 @@ footer {
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    min-height: 80px;
-    padding-top: 5px;
+    min-height: 50px;
     text-align: center;
     color: #fff;
     background-color: black;
+}
+
+footer h3 {
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-top: 0;
 }
 
