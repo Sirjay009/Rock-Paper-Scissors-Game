@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +13,34 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <!--Game Container-->
     <div id="gameContainer">
         <h1>Rock | Papper | Scissors Game</h1>
+        <!--Player's Section-->
         <div class="choices">
             <p>Choose to play!</p>
-        <button aria-label="Rock" class="control">👊</button>
-        <button aria-label="Papper" class="control">🖐</button></button>
-        <button aria-label="Scissors" class="control">✌</button>
+            <button aria-label="Rock" class="control">👊</button>
+            <button aria-label="Papper" class="control">🖐</button></button>
+            <button aria-label="Scissors" class="control">✌</button>
+        </div>
+        <!--Feedback Section-->
+        <div id="player">PLAYER: </div>
+        <div id="computer">COMPUTER: </div>
+        <div id="messages">DRAW!</div>
+        <!--Scores Section-->
+        <div class="scoreArea">
+            <p class="scores">Correct Answers: <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+        </div>
     </div>
-    <div id="player">PLAYER: </div>
-    <div id="computer">COMPUTER: </div>
-    <div id="messages">DRAW!</div>
-    <div class="scoreArea">
-        <p class="scores">Correct Answers: <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-    </div>
-    </div>
+    <!--Footer Section-->
     <footer>
         <h3>Rules</h3>
         <p>Scissors cuts Paper | Papper covers Rock | Rock blunts Scissors</p>
     </footer>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
