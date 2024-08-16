@@ -54,16 +54,19 @@ h1, h3 {
 }
 
 #player {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 #computer {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
     margin: 25px 0;
 }
 
 #messages {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 footer {
