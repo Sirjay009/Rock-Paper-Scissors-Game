@@ -55,25 +55,20 @@ h1, h3 {
 }
 
 #player {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
 #computer {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin: 25px 0;
 }
 
 #messages {
-    font-size: 1.1rem;
+    font-size: 1.9rem;
     font-weight: bold;
     margin-bottom: 0;
-}
-
-.scoreArea {
-    width: 100%;
-    margin-top: 0;
 }
 
 .green {
@@ -82,6 +77,11 @@ h1, h3 {
 
 .red {
     color: red;
+}
+
+.scoreArea {
+    width: 100%;
+    margin-top: 0;
 }
 
 /*Footer*/

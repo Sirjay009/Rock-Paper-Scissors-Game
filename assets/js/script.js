@@ -2,6 +2,7 @@
 const choices = ["rock", "paper", "scissors"];
 const player = document.getElementById("player");
 const computer = document.getElementById("computer");
+const messages = document.getElementById("messages");
 const DisplayPlayerScore = document.getElementById("DisplayPlayerScore");
 const DisplayComputerScore = document.getElementById("DisplayComputerScore");
 
@@ -31,5 +32,16 @@ function playGame(playerChoice) {
     player.textContent = `PLAYER: ${playerChoice}`;
     computer.textContent = `COMPUTER: ${computerChoice}`;
     messages.textContent = result;
+
+    messages.classList.remove("green", "red");
+}
+
+switch(result) {
+    case "YOU WIN!":
+        messages.classList.add("green");
+        break;
+        case "YOU LOSE!":
+            messages.classList.add("red");
+            break;
 }
 
