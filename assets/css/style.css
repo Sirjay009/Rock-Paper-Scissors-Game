@@ -76,11 +76,12 @@ h1, h3 {
     margin-top: 0;
 }
 
-.scores {
-    margin: 0.5em auto;
-    display: inline-block;
-    padding: 20px;
-    color: black;
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
 }
 
 /*Footer*/
